@@ -61,7 +61,7 @@ ori $v0, $zero, 10
 syscall
 
 .data
-prompt: .asciiz "\nEnter an integer for bitwise complement conversion: "
+prompt: .asciiz "\nEnter an integer for 2's complement conversion: "
 enteredNumber: .asciiz "\n The number entered by the user is: "
 binaryNumber: .asciiz "\n The number you entered in binary is: "
 result: .asciiz "\nThe 2's complement of user entered number is: "
